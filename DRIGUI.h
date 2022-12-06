@@ -105,9 +105,9 @@ namespace DRIG {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 22, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(438, 56);
+			this->label1->Location = System::Drawing::Point(389, 45);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(0, 52);
+			this->label1->Size = System::Drawing::Size(0, 42);
 			this->label1->TabIndex = 0;
 			this->label1->Click += gcnew System::EventHandler(this, &DRIGUI::label1_Click);
 			// 
@@ -119,9 +119,10 @@ namespace DRIG {
 			this->comboBox1->FormattingEnabled = true;
 			this->comboBox1->IntegralHeight = false;
 			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Player", L"Team", L"Year" });
-			this->comboBox1->Location = System::Drawing::Point(39, 214);
+			this->comboBox1->Location = System::Drawing::Point(47, 186);
+			this->comboBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(121, 33);
+			this->comboBox1->Size = System::Drawing::Size(108, 28);
 			this->comboBox1->TabIndex = 3;
 			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &DRIGUI::comboBox1_SelectedIndexChanged);
 			// 
@@ -132,9 +133,10 @@ namespace DRIG {
 				static_cast<System::Byte>(0)));
 			this->comboBox2->FormattingEnabled = true;
 			this->comboBox2->IntegralHeight = false;
-			this->comboBox2->Location = System::Drawing::Point(230, 214);
+			this->comboBox2->Location = System::Drawing::Point(206, 186);
+			this->comboBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->comboBox2->Name = L"comboBox2";
-			this->comboBox2->Size = System::Drawing::Size(268, 33);
+			this->comboBox2->Size = System::Drawing::Size(239, 28);
 			this->comboBox2->TabIndex = 4;
 			// 
 			// comboBox3
@@ -146,9 +148,10 @@ namespace DRIG {
 				L"Field Goals", L"Field Goal Attempts", L"Rebounds",
 					L"Assists", L"Steals", L"Blocks", L"Points"
 			});
-			this->comboBox3->Location = System::Drawing::Point(627, 214);
+			this->comboBox3->Location = System::Drawing::Point(560, 186);
+			this->comboBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->comboBox3->Name = L"comboBox3";
-			this->comboBox3->Size = System::Drawing::Size(204, 33);
+			this->comboBox3->Size = System::Drawing::Size(182, 28);
 			this->comboBox3->TabIndex = 5;
 			// 
 			// button1
@@ -156,9 +159,10 @@ namespace DRIG {
 			this->button1->BackColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button1->Location = System::Drawing::Point(507, 314);
+			this->button1->Location = System::Drawing::Point(451, 251);
+			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(163, 54);
+			this->button1->Size = System::Drawing::Size(145, 43);
 			this->button1->TabIndex = 6;
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &DRIGUI::button1_Click);
@@ -170,9 +174,9 @@ namespace DRIG {
 			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label6->ForeColor = System::Drawing::Color::RoyalBlue;
-			this->label6->Location = System::Drawing::Point(69, 513);
+			this->label6->Location = System::Drawing::Point(60, 434);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(20, 29);
+			this->label6->Size = System::Drawing::Size(18, 25);
 			this->label6->TabIndex = 11;
 			this->label6->Text = L" ";
 			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -185,9 +189,9 @@ namespace DRIG {
 			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label7->ForeColor = System::Drawing::Color::RoyalBlue;
-			this->label7->Location = System::Drawing::Point(375, 513);
+			this->label7->Location = System::Drawing::Point(328, 434);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(20, 29);
+			this->label7->Size = System::Drawing::Size(18, 25);
 			this->label7->TabIndex = 12;
 			this->label7->Text = L" ";
 			this->label7->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -198,9 +202,10 @@ namespace DRIG {
 				static_cast<System::Byte>(0)));
 			this->comboBox4->FormattingEnabled = true;
 			this->comboBox4->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Quick Sort", L"Merge Sort" });
-			this->comboBox4->Location = System::Drawing::Point(910, 214);
+			this->comboBox4->Location = System::Drawing::Point(809, 186);
+			this->comboBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->comboBox4->Name = L"comboBox4";
-			this->comboBox4->Size = System::Drawing::Size(162, 33);
+			this->comboBox4->Size = System::Drawing::Size(144, 28);
 			this->comboBox4->TabIndex = 13;
 			// 
 			// label8
@@ -210,9 +215,9 @@ namespace DRIG {
 			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label8->ForeColor = System::Drawing::Color::RoyalBlue;
-			this->label8->Location = System::Drawing::Point(549, 513);
+			this->label8->Location = System::Drawing::Point(488, 434);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(20, 29);
+			this->label8->Size = System::Drawing::Size(18, 25);
 			this->label8->TabIndex = 14;
 			this->label8->Text = L" ";
 			this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -224,9 +229,9 @@ namespace DRIG {
 			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label9->ForeColor = System::Drawing::Color::RoyalBlue;
-			this->label9->Location = System::Drawing::Point(1003, 513);
+			this->label9->Location = System::Drawing::Point(879, 434);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(20, 29);
+			this->label9->Size = System::Drawing::Size(18, 25);
 			this->label9->TabIndex = 15;
 			this->label9->Text = L" ";
 			this->label9->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -238,9 +243,9 @@ namespace DRIG {
 			this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label14->ForeColor = System::Drawing::Color::RoyalBlue;
-			this->label14->Location = System::Drawing::Point(877, 617);
+			this->label14->Location = System::Drawing::Point(778, 524);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(19, 26);
+			this->label14->Size = System::Drawing::Size(16, 24);
 			this->label14->TabIndex = 20;
 			this->label14->Text = L" ";
 			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -252,20 +257,20 @@ namespace DRIG {
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label2->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->label2->Location = System::Drawing::Point(13, 15);
+			this->label2->Location = System::Drawing::Point(12, 12);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(143, 22);
+			this->label2->Size = System::Drawing::Size(116, 18);
 			this->label2->TabIndex = 21;
 			this->label2->Text = L"*Loading in Data";
 			// 
 			// DRIGUI
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::WindowFrame;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1158, 756);
+			this->ClientSize = System::Drawing::Size(1014, 595);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label14);
 			this->Controls->Add(this->label9);
@@ -279,6 +284,7 @@ namespace DRIG {
 			this->Controls->Add(this->comboBox1);
 			this->Controls->Add(this->label1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
+			this->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->Name = L"DRIGUI";
 			this->Text = L"D.R.I.G.";
 			this->Load += gcnew System::EventHandler(this, &DRIGUI::DRIGUI_Load);
